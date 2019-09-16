@@ -1,0 +1,66 @@
+html {
+	box-sizing: border-box;
+}
+
+body { 
+    background: url("../images/background.jpg");
+    
+}
+
+h2 {
+	margin: 15px 0px 5px 0px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.header {
+	padding: 70px 0px 0px 0px;
+	color: grey;
+}
+
+ h2, #MATCHINGNUMBER, #totalScore, #wins, #losses, .score {
+	color: black;
+}
+
+h1 {
+	color: black;
+	margin: 55px 0px 75px 0px;
+    letter-spacing: 12px;
+    text-align: center;
+}
+
+.crystal {
+	width: 150px;
+	margin: 30px auto;
+}
+
+.instruction {
+	color: black;
+	text-align: center;
+	padding: 20px 75px;
+}
+
+.score {
+	padding-top: 30px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+#totalScore{
+    text-align: center;
+}
+
+
+#winOrLose {
+	color: red;
+}
+
+
+
+.playbutton {
+	margin-top: 30px;
+	
+	color: green;
+	letter-spacing: 4px;
+}
