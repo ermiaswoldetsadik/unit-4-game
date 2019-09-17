@@ -18,7 +18,7 @@ h2 {
 	color: grey;
 }
 
- h2, #MATCHINGNUMBER, #totalScore, #wins, #losses, .score {
+ h2, #NUMBERTOMATCH, #totalScore, #wins, #losses, .score {
 	color: black;
 }
 
@@ -37,7 +37,8 @@ h1 {
 .instruction {
 	color: black;
 	text-align: center;
-	padding: 20px 75px;
+    padding: 20px 75px;
+    
 }
 
 .score {
@@ -60,7 +61,10 @@ h1 {
 
 .playbutton {
 	margin-top: 30px;
-	
+	border: solid green;
 	color: green;
 	letter-spacing: 4px;
+}
+.crystal{
+    border: solid lightblue;
 }
